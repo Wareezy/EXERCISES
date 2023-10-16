@@ -129,6 +129,10 @@ p[title2]{
     color:var(--ptext);
     
 }
+p[title3]{
+    color:var(--favouriteColor);
+    
+}
 p[title1]{
     color:var(--pHeading);
     
