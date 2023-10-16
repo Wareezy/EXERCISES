@@ -1,20 +1,28 @@
+body{
+    background-color: rgb(88, 88, 233);
+}
 #h1{
   color:orange;  
 }
 
-#h1,h2{
+h1,h2,h3{
     text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;   
 }
+
 
 p{
 
     text-align:center
+    
 
 }
 
 .custom-paragraph_1{
     font-family:'Times New Roman', Times, serif;
     color:maroon;
+   
 }
 .custom-paragraph_2{
 
@@ -33,4 +41,76 @@ p{
 
 .body{
     margin:2%;
+}
+
+
+
+/* css for imageTask */
+#customPar1{
+    color:white;
+    border: 1px solid #000; /* 1px solid border with a black color */
+    padding: 10px;
+}
+#customPar2{
+    color:white;
+    border: 1px solid #000; /* 1px solid border with a black color */
+    padding: 10px; /* Add padding for spacing inside the border */
+}
+#customPar3{
+    color:white;
+    border: 1px solid #000; /* 1px solid border with a black color */
+    padding: 10px; /* Add padding for spacing inside the border */
+}
+#customPar4{
+    color:white;
+    border: 1px solid #000; /* 1px solid border with a black color */
+    padding: 10px; /* Add padding for spacing inside the border */
+}
+#customPar5{
+    color:white;
+    border: 1px solid #000; /* 1px solid border with a black color */
+    padding: 10px; /* Add padding for spacing inside the border */
+}
+#customPar6{
+    color:white;
+    border: 1px solid #000; /* 1px solid border with a black color */
+    padding: 10px; /* Add padding for spacing inside the border */
+}
+#image1{
+    width: 600px; /* Set the desired width (e.g., 200 pixels) */
+  height: auto;
+ display:block;
+}
+#image2{
+    width: 600px; /* Set the desired width (e.g., 200 pixels) */
+  height: auto;
+ display:block;
+}
+#image3{
+    width: 600px; /* Set the desired width (e.g., 200 pixels) */
+  height: auto;
+ display:block;
+}
+
+/* Style the links */
+li {
+    margin: 0 10px;
+    position: relative; /* Needed for pseudo-element positioning */
+}
+li::before {
+    content: "\2022"; /* Unicode bullet point character */
+    color: rgb(255, 255, 255); /* Color of the bullet point */
+    margin-right: 5px; /* Space between bullet point and text */
+}
+li:hover {
+    color: white;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
 }
