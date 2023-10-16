@@ -99,18 +99,17 @@
     
 
         <h3>What does box-sizing and border do</h3>
-        <h3>box-sizing</h3>
+        <h3>box-sizing:border box</h3>
 
         <p id="customPar1">
-      It makes an element calculate its total size, including its content, padding, and borders.<br>
-This means that when you set the width or height of the element, it includes the space taken up by padding and borders, making it easier to create predictable and responsive layouts</p>
-<h3>border box</h3>
-<p id="customPar1">
-  It's a CSS property used to define the border of an element.<br> You can specify the border's width, style, and color using this property.
-  It creates a visual boundary around an element, helping you define its edges and make it stand out from other content.</p>
+          The CSS property box-sizing with a value of border-box changes how an element calculates its size, particularly its width and height.<br>
 
-  <h3>2 other ways of using color</h3>
-  <h3>Background color</h3>
+          By default, when box-sizing is set to content-box (which is the default value), an element's size is calculated based on its content area, excluding padding and borders.<br> In other words, the width and height are determined by the content itself.
+          
+          When you set box-sizing: border-box, you change this behavior<br>. With border-box, an element's size calculation includes its content, padding, and borders. In simple terms, it treats the element's specified width and height as inclusive of the padding and borders.</p>
+  
+          <h3>2 ways of using color</h3>
+  <h3>1.Background color</h3>
   <p id="customPar1">
     You can set the background color of elements, such as the background of a webpage, divs, sections, or buttons.<br>
 Background color can create visual separation, highlight important content, and contribute to the overall design and aesthetics of a website.<br>
@@ -118,7 +117,7 @@ body {
   background-color: #f0f0f0; /* Set the background color of the entire webpage */
 }
 </p>
-<h3>Text- color</h3>
+<h3>2.Text- color</h3>
   <p id="customPar1">
     You can set the color of text to improve readability and create visual hierarchy. Different text colors can be used for headings,<br> body text, links, and more.
     Choosing appropriate text colors that contrast well with the background helps users read content comfortably.<br> These are just a couple of ways color is used in web design. It's also important for branding, visual consistency, and conveying emotions and messages through design.<br>
