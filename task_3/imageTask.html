@@ -4,26 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ImageTask</title>
+    <link rel="stylesheet" type="text/css" href="/CSS_Exercise_1/exercise1.css">
 </head>
 <body>
-
+  <nav>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Products</li>
+        <li>Contact</li>
+    </ul>
+    </nav>
+<div id="Top">
+  
+</div>
 <h1>Risk Taker</h1>
+<h2>Fighter</h2>
+<h3>This means that i tackle challenges headon</h3>
 <!-- This is the code when you want to add an image -->
-  <img src="getty_160352757_970649970450057_51087.jpg" alt="">
+  <img src="getty_160352757_970649970450057_51087.jpg" id="image1">
 
-<p>in the above above shows an individual jumping from one piece of mountain to the next</p>
-<P>i am a risk taker i always see the opportunity rather than the risk when trying something new</P>
+<p id="customPar1">in the above above shows an individual jumping from one piece of mountain to the next</p>
+<P id="customPar2">i am a risk taker i always see the opportunity rather than the risk when trying something new</P>
   <h1>Brave</h1>
 
-  <img src="photo-1614027164847-1b28cfe1df60.jpg" alt="">
-  <p>The above image shows a lion that is staring at the camera</p>
-  <p>This represents that i am brave and that i show no fear when i am faced with challenges</p>
+  <img src="photo-1614027164847-1b28cfe1df60.jpg" id="image2">
+  <p id="customPar3">The above image shows a lion that is staring at the camera</p>
+  <p id="customPar4">This represents that i am brave and that i show no fear when i am faced with challenges</p>
 
   <h1>Warrior</h1>
 
-  <img src="spartan_warrior_by_rylyn84_dfo1esx-fullview.jpg" alt="">
-  <p>in the above image shows a Spartan warrior that is ready for battle which means what i have a warrior personality.</p>
-  <p>i fight my battles head on no fear.
+  <img src="spartan_warrior_by_rylyn84_dfo1esx-fullview.jpg" id="image3">
+  <p id="customPar5">in the above image shows a Spartan warrior that is ready for battle which means what i have a warrior personality.</p>
+  <p id="customPar6">i fight my battles head on no fear.
 
   </p>
             
@@ -36,11 +49,92 @@
 
 
 
-
-
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-
+<footer>
+<a href="#top">
+  <button id="myBtn" title="Go to top">Top</button>
+</a>
+</footer>
    
+
+<h2>4 other psuedo classes and 4 other pseudo elemetns that I never used before</h2>
+<h3>psuedo classes</h3>
+<p id="customPar1">
+  1.:nth-of-type(n): This pseudo-class allows you to select elements based on their position within their parent.<br> You can specify a numerical value n to select every nth element of a certain type. For example, p:nth-of-type(odd) selects all odd-numbered paragraphs</p>
+
+  <p id="customPar1">
+    2.:not(selector):
+
+    The :not() pseudo-class allows you to select elements that do not match a specific selector. For example, <br>a:not(.external) selects all anchor links that do not have the class "external."</p>
+ 
+    <p id="customPar1">
+   3.:focus-within:
+
+   This pseudo-class selects an element when any of its descendants receive focus. It's commonly used in forms and<br> interactive elements to style parent elements when child elements have focus.</p>
+  
+   <p id="customPar1">
+    4. :empty:
+
+    The :empty pseudo-class selects elements that have no children or contain only whitespace. It's useful for styling<br> or targeting elements based on their content.</p>
+
+    <h3>psuedo elements</h3>
+
+    <p id="customPar1">
+      1.::before:
+
+      The ::before pseudo-element is used to insert content before the content of an element. It's often employed to add<br> decorative elements or labels before an element's content.</p>
+      <p id="customPar1">
+        2.::after:
+
+        Similar to ::before, ::after inserts content after the content of an element. It's frequently used to add decorative <br>elements or generate content dynamically.</p>
+     
+        <p id="customPar1">
+       3.::first-line:
+
+       The ::first-line pseudo-element selects the first line of a block-level element. You can apply styles specifically to the <br>first line of text within a paragraph or heading, for example..</p>
+      
+       <p id="customPar1">
+        4. ::first-letter:
+
+        The ::first-letter pseudo-element selects the first letter or character of a block-level element. It's often used to apply <br>styles to initial characters for drop caps or other decorative effects..</p>
+    
+
+        <h3>What does box-sizing and border do</h3>
+        <h3>box-sizing</h3>
+
+        <p id="customPar1">
+      It makes an element calculate its total size, including its content, padding, and borders.<br>
+This means that when you set the width or height of the element, it includes the space taken up by padding and borders, making it easier to create predictable and responsive layouts</p>
+<h3>border box</h3>
+<p id="customPar1">
+  It's a CSS property used to define the border of an element.<br> You can specify the border's width, style, and color using this property.
+  It creates a visual boundary around an element, helping you define its edges and make it stand out from other content.</p>
+
+  <h3>2 other ways of using color</h3>
+  <h3>Background color</h3>
+  <p id="customPar1">
+    You can set the background color of elements, such as the background of a webpage, divs, sections, or buttons.<br>
+Background color can create visual separation, highlight important content, and contribute to the overall design and aesthetics of a website.<br>
+body {
+  background-color: #f0f0f0; /* Set the background color of the entire webpage */
+}
+</p>
+<h3>Text- color</h3>
+  <p id="customPar1">
+    You can set the color of text to improve readability and create visual hierarchy. Different text colors can be used for headings,<br> body text, links, and more.
+    Choosing appropriate text colors that contrast well with the background helps users read content comfortably.<br> These are just a couple of ways color is used in web design. It's also important for branding, visual consistency, and conveying emotions and messages through design.<br>
+    
+    h1 {
+      color: #333; /* Set the text color of heading elements */
+    }
+    a {
+      color: #0077cc; /* Set the text color of links */
+    }
+   
+    
+    
+    
+    
+    
+</p>
 </body>
 </html>
